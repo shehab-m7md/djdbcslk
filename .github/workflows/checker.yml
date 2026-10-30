@@ -2,7 +2,7 @@ name: Vox 4DX Checker
 
 on:
   schedule:
-    - cron: '0 * * * *'
+    - cron: '*/30 * * * *'  # هيشتغل أوتوماتيك كل 30 دقيقة بالضبط
   workflow_dispatch:
 
 permissions:
