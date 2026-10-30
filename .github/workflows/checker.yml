@@ -1,0 +1,32 @@
+name: Vox 4DX Checker
+
+on:
+  schedule:
+    - cron: '0 * * * *'
+  workflow_dispatch:
+
+permissions:
+  actions: write
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          pip install curl_cffi beautifulsoup4 requests
+
+      - name: Run script
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TELEGRAM_TOKEN: "9153292471:AAHyZ1Ia5uzwjsPYUMjF1708rujeUm6oWr8"
+        run: |
+          python checker.py
