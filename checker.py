@@ -21,7 +21,7 @@ LINKS = [
     "https://egy.voxcinemas.com/showtimes?c=city-centre-almaza&m=avengers-doomsday&d=20261223",
     "https://egy.voxcinemas.com/showtimes?c=mall-of-egypt&m=avengers-doomsday",
     "https://egy.voxcinemas.com/showtimes?c=mall-of-egypt&m=avengers-doomsday&d=20261217",
-    "https://egy.voxcinemas.com/showtimes$c=mall-of-egypt&m=avengers-doomsday&d=20261218",
+    "https://egy.voxcinemas.com/showtimes?c=mall-of-egypt&m=avengers-doomsday&d=20261218",
     "https://egy.voxcinemas.com/showtimes?c=mall-of-egypt&m=avengers-doomsday&d=20261219",
     "https://egy.voxcinemas.com/showtimes?c=mall-of-egypt&m=avengers-doomsday&d=20261220",
     "https://egy.voxcinemas.com/showtimes?c=mall-of-egypt&m=avengers-doomsday&d=20261221",
